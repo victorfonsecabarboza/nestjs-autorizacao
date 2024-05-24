@@ -10,14 +10,14 @@ export class AuthService {
     users = [
         {
             id: faker.datatype.uuid(), // Gera um UUID fictício para o ID do usuário
-            userName: 'Fulano 1', // Nome de usuário
-            password: 'fulano', // Senha
+            userName: 'Victor', // Nome de usuário
+            password: 'senha1', // Senha
             role: Role.Admin, // Papel do usuário (Admin neste caso)
         },
         {
             id: faker.datatype.uuid(), // Gera um UUID fictício para o ID do usuário
-            userName: 'Ciclano 1', // Nome de usuário
-            password: 'ciclano', // Senha
+            userName: 'João', // Nome de usuário
+            password: 'senha2', // Senha
             role: Role.Client, // Papel do usuário (Cliente neste caso)
         }
     ];
