@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Projeto de API REST para gerenciamento de usuários, desenvolvido com o framework [NestJS](https://github.com/nestjs/nest). Utiliza JWT (JSON Web Tokens) para autenticação segura, garantindo que apenas usuários autenticados possam acessar os recursos protegidos. Implementa RBAC (Role-Based Access Control) para gerenciamento granular de permissões, permitindo controle preciso sobre o que cada usuário pode fazer com base em seu papel. Utiliza Guards para controle de acesso, permitindo definir e aplicar regras de acesso de forma flexível e eficaz.
 
 ## Installation
 
